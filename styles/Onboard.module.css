@@ -1,0 +1,46 @@
+.onboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.onboardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.buttonsRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.buttonsRow .selected {
+  padding: 7.5px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 10px 25px;
+}
+.buttonsRow .button {
+  padding: 7.5px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid black;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 10px 25px;
+}
